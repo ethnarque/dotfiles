@@ -1,0 +1,6 @@
+*~
+*.swp
+*result*
+.direnv
+.devenv
+node_modules

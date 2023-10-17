@@ -1,0 +1,18 @@
+[alias]
+	forgor = "commit --amend --no-edit"
+	graph = "log --all --decorate --graph --oneline"
+	oops = "checkout --"
+
+[core]
+	editor = "nvim"
+
+[init]
+	defaultBranch = "main"
+
+[url "git@github.com:"]
+	insteadOf = "https://github.com/"
+
+[user]
+	email = "42704376+pmlogist@users.noreply.github.com"
+	name = "pml"
+
