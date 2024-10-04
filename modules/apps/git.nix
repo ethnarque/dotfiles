@@ -20,7 +20,7 @@ in
       };
       user = {
         name = "Paul-Mathias Logue";
-        email = "vcs@ethnarque.fr";
+        email = "git@ethnarque.fr";
       };
 
       init.defaultBranch = "main";
