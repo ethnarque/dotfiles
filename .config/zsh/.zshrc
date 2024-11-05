@@ -43,6 +43,11 @@ if [[ -d "$ZSH_PLUGIN_DIR/zsh-history-substring-search" ]]; then
     HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=1
 fi
 
+## fast-syntax-highlighting
+if [[ -d "$ZSH_PLUGIN_DIR/fast-syntax-highlighting" ]]; then
+	source "$ZSH_PLUGIN_DIR/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh"
+fi
+
 # LaTeX
 #if [[ -d /Library/TeX/texbin ]]; then
     export PATH="/Library/TeX/texbin:$PATH"
@@ -82,3 +87,5 @@ function config() {
 }
 
 alias dot="$(which git) --git-dir=$XDG_REPOS_DIR/dotfiles --work-tree=$HOME"
+alias la="ls -laG"
+alias ll="ls -lG"

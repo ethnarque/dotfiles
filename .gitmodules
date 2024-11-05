@@ -4,3 +4,6 @@
 [submodule "/Users/pml/.config/zsh/plugins/typewritten"]
 	path = /Users/pml/.config/zsh/plugins/typewritten
 	url = https://github.com/reobin/typewritten.git
+[submodule "/Users/pml/.config/zsh/plugins/fast-syntax-highlighting"]
+	path = /Users/pml/.config/zsh/plugins/fast-syntax-highlighting
+	url = https://github.com/zdharma-continuum/fast-syntax-highlighting.git
