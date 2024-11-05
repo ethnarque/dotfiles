@@ -1,0 +1,6 @@
+[submodule "/Users/pml/.config/zsh/plugins/zsh-history-substring-search"]
+	path = /Users/pml/.config/zsh/plugins/zsh-history-substring-search
+	url = https://github.com/zsh-users/zsh-history-substring-search.git
+[submodule "/Users/pml/.config/zsh/plugins/typewritten"]
+	path = /Users/pml/.config/zsh/plugins/typewritten
+	url = https://github.com/reobin/typewritten.git
